@@ -1,0 +1,14 @@
+2022-05-02 15:23:31,889.889 INFO Hello! I'm going to re-sort ['./example_files/Example.pdf'] because you asked me to!
+2022-05-02 15:23:32,790.790 DEBUG Running in sort mode
+2022-05-02 15:23:32,791.791 INFO Extracting Color: from images
+2022-05-02 15:23:33,897.897 INFO 0: Extracted Color: value Red from image
+2022-05-02 15:23:34,948.948 INFO 1: Extracted Color: value Blue from image
+2022-05-02 15:23:35,947.947 WARNING Could not find Color: on page 2. Discarding page.
+2022-05-02 15:23:37,001.1 INFO 3: Extracted Color: value Yellow from image
+2022-05-02 15:23:38,061.61 INFO 4: Extracted Color: value Green from image
+2022-05-02 15:23:38,064.64 INFO Current Order List:
+2022-05-02 15:23:38,064.64 INFO odict_keys(['Red', 'Blue', 'Yellow', 'Green'])
+2022-05-02 15:23:38,064.64 INFO Modified Order List:
+2022-05-02 15:23:38,064.64 INFO ['Green', 'Yellow', 'Red', 'Blue']
+2022-05-02 15:23:38,088.88 INFO New sorted file created: ./output/Example_Output.pdf
+2022-05-02 15:23:38,088.88 INFO Success! Document sorting complete.

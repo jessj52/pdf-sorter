@@ -25,7 +25,11 @@ Argument | Type | Default | Description
 `pdf_sorter` can be run in a docker container with the following steps:
 
 1. Build local docker image `docker build -t sort_pdf .`
-1. Run pdf_sorter a docker container using the above image with `./sort-pdfs-by-input-value.sh` and passing in the appropriate arguments, eg. `./sort-pdfs-by-input-value.sh -s ./example_files/SortedList.txt -f ./example_files/Example.pdf --c "Color:" -o Example_Output.pdf`
+1. Run pdf_sorter a docker container using the above image with `./sort-pdfs-by-input-value.sh` and passing in the appropriate arguments, eg. `./sort-pdfs-by-input-value.sh -s ./example_files/SortedList.txt -f ./example_files/Example.pdf --c "Color:" -o Example_Output.pdf --debug`
+
+The above run should produce this output logging, and the PDF `example_files/Example_Output.pdf`:
+
+![Example logging output](example_files/example_run.png)
 
 ## Run Tests
 
