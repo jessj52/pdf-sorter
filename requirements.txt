@@ -1,0 +1,5 @@
+### Requirements without version specified ###
+tesseract
+PyPDF2
+pdf2image
+pytesseract
